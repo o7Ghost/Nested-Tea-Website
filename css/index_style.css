@@ -1,0 +1,316 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*utlity*/
+.front-container{
+    margin: auto;
+    height: 720px;
+    max-width: 1440px;
+    background: saddlebrown;
+}
+
+section {
+    padding-bottom: 32px;
+}
+
+/* navbar */
+
+#navbar {
+    overflow: auto;
+    background: white;
+}
+
+.navbar-container {
+   margin: auto;
+   overflow: auto;
+   max-width: 1440px;
+   padding-left: 15px;
+   padding-right: 15px;
+   padding-bottom: 20px;
+}
+
+
+/* logo */
+
+#logo{
+    float: right;
+    padding: 19px;
+}
+
+.logo-container {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background: saddlebrown;
+    text-align: center;
+    padding-top: 14px;
+    text-decoration: none;
+    color: white;
+    display: inline-block; 
+}
+
+#navbar ul {
+    list-style: none;
+    float: right;
+}
+
+#navbar li {
+    float: left;
+    padding: 19px;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 20px 0;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: black;
+}
+
+#navbar ul li a.current {
+    box-shadow:inset 0 -6px saddlebrown;
+}
+
+#navbar ul li a:hover {
+    color: saddlebrown;
+}
+
+/* feature */
+#feature .feature-img {
+    background: url('../img/feature-img1.jpg') no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+
+.feature-info {
+    width: 50%;
+    float: right;
+    text-align: center;
+    overflow: hidden;
+    padding: 250px 20px;
+    color: white;
+}
+
+#feature .feature-info h1 {
+    font-size: 40px;
+    padding: 20px;
+}
+
+#feature .feature-info p {
+    font-size: 20px;
+}
+
+/* about */
+.about-container {
+    margin: auto;
+    height: 500px;
+    max-width: 1440px;
+    background: saddlebrown;
+}
+
+#about .about-img {
+    background: url('../img/about.jpg') no-repeat;
+    width: 50%;
+    height: 100%;
+    background-size: cover;
+    float: right;
+}
+
+.about-info {
+    width: 50%;
+    float: left;
+    text-align: center;
+    overflow: hidden;
+    padding: 150px 20px;
+    color: white;
+}
+
+#about .about-info h1 {
+    font-size: 30px;
+    padding: 20px;
+}
+
+#about .about-info p {
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+.about-btn {
+    font-size: 18px;
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px 16px;
+    color: white;
+    cursor: pointer;
+    border: 2px #ddd solid;
+    border-radius: 50px;
+    font-weight: 600;
+}
+
+.about-btn:hover {
+    background: white;
+    color: saddlebrown;
+}
+
+/*miscellaneous*/
+
+.miscellaneous-container {
+    margin: auto;
+    height: 500px;
+    max-width: 1440px;
+    background: white;
+}
+
+.uber {
+    background: white;
+    color:white;
+    text-align: center;
+    float: left;
+    width: 35%;
+    height: 100%;
+    padding-right: 10px;
+}
+
+.uber-img {
+    background: url('../img/UE_Logo_Stacked_RGB_Pepper\ Green@2x-100.jpg') no-repeat;
+    width: 100%;
+    height: 50%;
+    background-size: cover;
+    background-position: center center;
+}
+
+.uber-info {
+    background: saddlebrown;
+    width: 100%;
+    height: 50%;
+}
+
+#miscellaneous .miscellaneous-container .uber h1 {
+    padding: 50px 20px 20px 20px;
+}
+
+#miscellaneous .miscellaneous-container .uber p {
+    padding-bottom: 20px;
+}
+
+.location {
+    background: saddlebrown;
+    text-align: center;
+    float: left;
+    width: 65%;
+    height: 100%;
+    color: white;
+}
+
+.store-img {
+    float: left;
+    background: url('../img/Location.jpg') no-repeat;
+    width: 50%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+}
+
+#miscellaneous .miscellaneous-container .location h1 {
+    padding: 200px 20px 20px 20px;
+    
+}
+
+#miscellaneous .miscellaneous-container .location p {
+    padding: 10px;
+}
+
+/* Gallery */
+
+.gallery-container {
+    margin: auto;
+    height: 360px;
+    max-width: 1440px;
+    background: white;
+    padding: 1px 0;
+}
+
+.img-container {
+    width: 357px;
+    height: 100%;
+}
+
+.Gallery-header {
+    text-align: center;
+    font-size: 40px;
+    color: saddlebrown;
+    padding-bottom: 20px;
+}
+
+.img1 {
+    display: inline-block;
+    background: url('../img/img1.jpg') no-repeat;
+    background-size: cover;
+}
+
+.img2 {
+    display: inline-block;
+    background: url('../img/img2.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.img3 {
+    display: inline-block;
+    background: url('../img/img3.jpg') no-repeat;
+    background-size: cover;
+}
+
+.img4 {
+    display: inline-block;
+    background: url('../img/img4.jpg') no-repeat;
+    background-size: cover;
+}
+
+.img5 {
+    display: inline-block;
+    background: url('../img/img5.jpg') no-repeat;
+    background-size: cover;
+}
+
+.img6 {
+    display: inline-block;
+    background: url('../img/img6.jpg') no-repeat;
+    background-size: cover;
+}
+
+.img7 {
+    display: inline-block;
+    background: url('../img/img7.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.img8 {
+    display: inline-block;
+    background: url('../img/img8.jpg') no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+}
+
+/* footer */
+.footer-container {
+    max-width: 1440px;
+    margin: auto;
+    color:white;
+    background: saddlebrown;
+    text-align: center;
+}
+
+
+
+
